@@ -28,7 +28,7 @@ function removeButton() {
 
 function deleteAllItems() {
 
-    if (confirm('Tümünü silmek istediğine emin misin ?')) {
+    if (confirm('Tümünü silmek istediğinden emin misin ?')) {
         listdom.innerHTML='';
         listdom.childNodes.forEach(function (item) {
             if (item.nodeType === 1) {
